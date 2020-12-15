@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Loverica";
+    src: url(fonts/Loverica\ DEMO.otf);
+}
+@font-face {
+    font-family: "Recoleta";
+    src: url(fonts/Recoleta-RegularDEMO.otf);
+}
+
+body {
+    background-color: #78e497ca;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 { 
+    font-family: "Loverica";
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #eaeaea;
+    border-radius: 30px;
+}
+.container .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(images/blob.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+    padding: 20px 0;
+}
+
+.container .slick-slide img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    object-fit: cover;
+}
+.container .slick-slide p {
+    font-size: 1.1rem;
+    font-family: "Recoleta";
+    padding: 0 20%;
+}
